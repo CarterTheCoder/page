@@ -1,24 +1,43 @@
+/* This is the most unorganized CSS code ever...*/
+
 body {
-    background-color: darkgrey;
+    background-color: black;
     font-family: sans-serif;
+}
+
+#colorButtons {
+    text-align: center;
+    background-color: none;
+    border-radius: 35px;
+    width: 250px;
 }
 
 .links {
     text-align: center;
     margin: 80px;
+    background-color: wheat;
+    border-radius: 35px;
+    width: 350px;
+    height: 80px;
+    margin: 25px, auto;
+
 }
 
 .top-header {
+    float: right;
+    margin-right: 35px;
     text-align: center;
     background-color: wheat;
     border-radius: 35px;
     width: 300px;
-    margin: 25px auto;
 }
 
 .about {
     text-align: center;
     margin: 80px;
+    background-color: wheat;
+    border-radius: 35px;
+    width: 350px;
 }
 
 .links-header {
