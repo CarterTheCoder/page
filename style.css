@@ -49,6 +49,17 @@ main {
     animation: fadeIn 1s ease-out 0.5s forwards; /*Fade in animation*/
 }
 
+#bottomFooter {
+    background-color: wheat;
+    text-align: center;
+    border-radius: 35px;
+    width: 300px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
