@@ -4,7 +4,7 @@ const toggleButton = document.getElementById('darkModeButton');
 toggleButton.addEventListener('click', function() {
     
     if (body.style.backgroundColor === 'white') {
-        body.style.backgroundColor = 'teal';
+        body.style.backgroundColor = 'black';
         toggleButton.innerText = 'Switch to Light Mode'
     } else {
         body.style.backgroundColor = 'white';
